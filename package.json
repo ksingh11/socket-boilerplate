@@ -1,0 +1,36 @@
+{
+  "name": "minesweep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": ">=4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon server.js --trace-sync-io",
+    "prod": "NODE_ENV=production node server.js"
+  },
+  "author": "Kaushal Singh",
+  "license": "MIT",
+  "dependencies": {
+    "app-module-path": "2.2.0",
+    "body-parser": "1.17.2",
+    "config": "1.26.1",
+    "express": "4.15.3",
+    "helmet": "3.6.1",
+    "morgan": "1.8.2",
+    "socket.io": "2.0.3",
+    "winston": "2.3.1"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "4.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "3.1.0",
+    "gulp-sourcemaps": "2.6.0",
+    "gulp-uglify": "3.0.0",
+    "nodemon": "1.11.0"
+  }
+}
