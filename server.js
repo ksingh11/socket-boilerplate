@@ -25,7 +25,7 @@ var config = require('config');
 var morgan = require('morgan');
 var helmet = require('helmet');
 var bodyParser = require('body-parser');
-var logger = require('libs').winstonLogger;
+var logger = require('libs').getlogger;
 
 
 /**

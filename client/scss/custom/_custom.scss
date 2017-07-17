@@ -4,5 +4,7 @@ html, body {
 }
 
 .logo {
-    background-image: url("../assets/images/batman-logo.png");
+    padding-left: 100px;
+    background: #fff url("../assets/images/batman-logo.png") no-repeat left;
+    background-size: 70px;
 }

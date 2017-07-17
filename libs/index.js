@@ -5,6 +5,6 @@ var morganStream = require('./components/logger').morganStream;
  * Export modules from: config/components
  */
 module.exports = {
-    winstonLogger: winstonLogger,
+    getlogger: winstonLogger,
     morganStream: morganStream
 };
